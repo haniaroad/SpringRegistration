@@ -5,31 +5,33 @@
 <head>
 <meta charset="UTF-8">
 <title>Registration Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
+<div class = "container">
 
 <h1>Please Fill Out the Form to Register!</h1>
 
 <form id ="userForm" action="formresults" onsubmit= "return validateInfo();">
 
-		First Name: <input id="firstname" type="text" name="firstname">
+		 <input id="firstname" type="text" name="firstname" placeholder = "First Name">
 		<br>
-		Last Name: <input id ="lastname" type="text" name="lastname"> 
+		 <input id ="lastname" type="text" name="lastname" placeholder = "Last Name"> 
 		<br>
-		Email: <input type = "email" name = "userEmail">
+		<input type = "email" name = "userEmail" placeholder = "Email">
 		<br>
-		Phone Number: <input id = "userNum" type ="text" name = "userNum">
+		 <input id = "userNum" type ="text" name = "userNum" placeholder = "Phone Number">
 		<br>
-		Password: <input id = "password" type = "password" name = "userPass">
+		 <input id = "password" type = "password" name = "userPass" placeholder = "Password">
 		<br>
-		Confirm Password: <input id= "confirm" type = "password" name = "confirmPass">
+		 <input id= "confirm" type = "password" name = "confirmPass" placeholder = "Confirm Password">
 		<br>
-		<input type="submit" value="Register">
+		<input id = "register" type="submit" value="Register">
 
 	</form>
 
-
+</div>
 
 
 
